@@ -579,9 +579,18 @@ input {
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 0;
+  
+}
+.footer-container > div:first-child {
+  margin-right: 120px;
 }
 
+.footer-container > div:nth-child(2) {
+  margin-right: 80px; 
+}
+.footer-container > div:last-child {
+  margin-left: 0; 
+}
 .footer-column-wrap:first-child {
   margin-right: 120px;
 }
@@ -590,9 +599,6 @@ input {
   margin-right: 40px;
 }
 
-.footer-subscribe {
-  margin-left: auto;
-}
 
 .footer-column-wrap:first-child {
   margin-right: 120px;
