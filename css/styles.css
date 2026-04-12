@@ -975,6 +975,11 @@ input {
 .modal-checkbox-wrap {
   margin-bottom: 0;
 }
+.custom-checkbox-icon {
+  fill: transparent; 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+              fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .modal-privacy-link {
   line-height: 1.33;
@@ -982,7 +987,11 @@ input {
   text-decoration-skip-ink: none;
   color: #4d5ae5;
 }
-
+.modal-checkbox-label {
+  display: flex;         
+  align-items: center;    
+  gap: 8px;              
+}
 .modal-submit-btn {
   display: block;
   margin: 0 auto;
@@ -1041,4 +1050,10 @@ input {
 
 .modal-checkbox-wrap {
   margin-bottom: 0;
+}
+
+#user-privacy:checked + .modal-checkbox-label .custom-checkbox-icon {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
