@@ -597,7 +597,9 @@ input {
 .footer-column-wrap:nth-child(2) {
   margin-right: 80px; 
 }
-
+.footer-column-wrap:last-child {
+  margin-left: auto;
+}
 .footer-column-wrap {
   display: flex;
   flex-direction: column;
@@ -961,7 +963,7 @@ input {
 .modal-checkbox-wrap {
   margin-bottom: 0;
 }
-.custom-checkbox-icon {
+
 .custom-checkbox-icon {
   width: 16px;
   height: 16px;
@@ -1048,7 +1050,7 @@ input {
 
 .modal-input-wrapper {
   margin-top: 0; 
-
+}
 .modal-comment {
   margin-top: 0;
   margin-bottom: 0;
