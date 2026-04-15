@@ -694,6 +694,9 @@ color: #434455;
   color: #ffffff;
 }
 
+.modal-checkbox-wrap {
+  margin-bottom: 24px;
+}
 .footer-subs-btn {
   display: flex;
   justify-content: center;
