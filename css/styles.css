@@ -851,7 +851,7 @@ color: #434455;
   padding-left: 38px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-
+background-color: #fcfcfc;
   outline: none;
   transition-property: border-color;
   transition-duration: 250ms;
@@ -889,10 +889,11 @@ color: #434455;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  background-color: #fcfcfc;
   transition-property: border-color;
+  outline: none;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  outline: none;
 }
 
 .modal-comment:hover,
@@ -969,4 +970,14 @@ color: #434455;
 .modal-privacy-link {
   color: #4d5ae5;
   text-decoration: underline;
+}
+
+.modal-input,.modal-comment {
+  background-color: #fcfcfc;
+}
+
+
+.modal-input:focus,
+.modal-comment:focus {
+  border-color: #4d5ae5;
 }
